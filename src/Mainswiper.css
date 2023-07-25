@@ -1,0 +1,14 @@
+/*Mainswiper*/
+
+.swiper-pagination-bullet{
+
+    width: 40px!important;
+    height:5px!important;
+    border-radius:10px!important;
+    background-color: rgba(223,223,223,.7)!important;
+}
+
+.swiper-button-prev, .swiper-button-next{
+
+    display:none!important;
+}
