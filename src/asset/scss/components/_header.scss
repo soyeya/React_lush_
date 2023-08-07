@@ -5,6 +5,12 @@
 
     overflow-x: hidden;
 
+    .scrollspy{
+
+        scroll-behavior: smooth;
+        margin-bottom:0px!important;
+    }
+
 .header-space{
 
     width: 100%;
@@ -13,9 +19,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(1,157,205,.3);
+    background-color: transparent;
+    position:fixed;
+    top:0;
+    z-index:9999;
 
 
+    &.Change{
+
+        background-color: rgba(76, 162, 205,.3);
+        transition: 0.3s;
+
+    }
 
      .logo{
 
@@ -49,9 +64,13 @@
                 .menu_link{
 
                     color:$font-color-f;
+                    margin:3px;
                 }
 
-        
+                .menu_link.Change{
+
+                    color:$mainColor;
+                }
 
                     &:hover{
     
@@ -68,6 +87,5 @@
 
      }
 }
-
 
 }

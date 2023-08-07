@@ -1,37 +1,28 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
-import '../_banner.css';
 
 
 const Banner = () => {
 
   const { register, formState: { errors }, handleSubmit } = useForm();
+  
   const onSubmit = (data) => console.log(data);
 
   const [mail, setMail] = useState(false);
 
-  const openMail = (e) => {
+  const openMail = () => { setMail(true);}
+  const closeMail = () => { setMail(false);}
 
-      setMail(true);
-      
-  }
-
-  const closeMail = () => {
-
-      setMail(false);
-
-  }
-  
 
     return (
 
         <>
-    
-         <div className="BannerWrap w-100-per h-100-per m0-auto">
+         <div id="event" className="pt-50"></div>
+         <div className="BannerWrap w-100-per h-100-per m0-auto pt-50 pb-50">
              <ul>
                 <li>
                     <span>증정 이벤트</span>
-                    <p>환경의 날을 맞이하여 러쉬와 함께하세요.</p>
+                    <p className="pt-10 pb-10">환경의 날을 맞이하여 러쉬와 함께하세요.</p>
                     <button onClick={openMail}>바로 참여하기</button>
                 </li>
              </ul>

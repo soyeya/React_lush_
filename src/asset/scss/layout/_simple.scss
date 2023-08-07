@@ -1,6 +1,7 @@
 //simple.scss
 
 .fz-12{font-size: 12px;}
+.fz-14{font-size: 14px;}
 .fz-16{ font-size: 16px;}
 .fz-18{ font-size: 18px;}
 .fz-20{ font-size: 20px;}
@@ -17,6 +18,8 @@
 .color-0 { color:#000;}
 .color-3 { color:#333;}
 .color-5 { color:#555;}
+.mainColor { color: #00879c;}
+.subColor{color:#c5c5c5;}
 
 .text-uppercase { text-transform: uppercase;}
 .text-capitalize { text-transform: capitalize;}
@@ -48,10 +51,18 @@
 .h-300{height:300px;}
 .h-400{height:400px;}
 .h-500{height:500px;}
+.h-600{height:600px;}
 .h-800{height:800px;}
+.h-1000{height:1000px;}
 
 
 .text-align-center{ text-align: center;}
+.text-align-left{ text-align:left;}
+.line-height-10{ line-height: 10px;}
+.line-height-20{ line-height: 20px;}
+.line-height-30{ line-height: 30px;}
+.line-height-40{ line-height: 40px;}
+.line-height-50{ line-height: 50px;}
 
 .align-items-center{align-items: center;}
 .justify-content-center{ justify-content: center;}

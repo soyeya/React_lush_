@@ -1,0 +1,22 @@
+{
+
+    "category" : [
+
+        {
+            "title" : "shower",
+            "link" : "/shower"
+        },
+        {
+            "title" : "bath",
+            "link" : "/bath"
+        },
+        {
+            "title" : "body",
+            "link" : "/body"
+        },
+        {
+            "title" : "perfume",
+            "link" : "/perfume"
+        }
+    ]
+}
