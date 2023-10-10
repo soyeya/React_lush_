@@ -7,7 +7,6 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.1",
-    "deploy": "^1.0.3",
     "react": "^18.2.0",
     "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
@@ -24,7 +23,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build"
+    "deploy" : "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -48,4 +47,5 @@
     "gh-pages": "^6.0.0"
   },
   "homepage": "https://soyeya.github.io/React_lush_/"
+
 }
